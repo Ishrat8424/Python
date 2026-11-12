@@ -1,0 +1,10 @@
+arr=[12, 45, 67, 23, 89, 90, 34, 100, 15] 
+print(arr)
+k=list(filter(lambda x:x%2==0,arr))
+print("the even numbeers in the list are:",k)
+k=list(filter(lambda x:x>50,arr))
+print("Filter numbers greater than 50:",k)
+k=list(filter(lambda x:x%5==0,arr))
+print("Filter numbers divisible by 5:",k)
+k=list(filter(lambda x:x>20 and x<80,arr))
+print("Filter numbers between 20 and 80:",k)
